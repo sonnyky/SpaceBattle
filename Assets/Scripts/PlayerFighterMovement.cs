@@ -4,8 +4,10 @@ using System.Collections;
 public class PlayerFighterMovement : MonoBehaviour {
     Vector3 cur_pos, new_pos;
     Vector3 velocity;
+    Mothership playerMothershipReferenceObject;
 	// Use this for initialization
 	void Start () {
+        playerMothershipReferenceObject = GameObject.Find("AstraHeavyCruiser01").GetComponentInChildren<Mothership>();
         cur_pos = this.gameObject.transform.localPosition;
         velocity.x = 0;
         velocity.y = 0.05f;
@@ -31,6 +33,7 @@ public class PlayerFighterMovement : MonoBehaviour {
         else
         {
             this.DestroyThisObject();
+            playerMothershipReferenceObject.reduceNumOfPlayerFighters();
         }
     }
 }
