@@ -390,6 +390,7 @@ GameObject:
   - 222: {fileID: 376124525}
   - 114: {fileID: 376124524}
   - 114: {fileID: 376124523}
+  - 114: {fileID: 376124526}
   m_Layer: 5
   m_Name: CreateUnit2
   m_TagString: Untagged
@@ -454,8 +455,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1582134235}
-        m_MethodName: createSphere
+      - m_Target: {fileID: 376124526}
+        m_MethodName: launch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -486,7 +487,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 06e737e1ea02e714e9fb38879ac75fdb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cd8fa11a91644b7ba9b604ecdaae421, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -500,6 +501,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 376124521}
+--- !u!114 &376124526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376124521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d868e2ed10cc493eb8369760c971d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hq: {fileID: 1582134235}
+  interval: 1
 --- !u!1 &645813739
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +612,7 @@ GameObject:
   - 222: {fileID: 715853802}
   - 114: {fileID: 715853801}
   - 114: {fileID: 715853800}
+  - 114: {fileID: 715853803}
   m_Layer: 5
   m_Name: CreateUnit4
   m_TagString: Untagged
@@ -662,8 +677,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1582134235}
-        m_MethodName: createSphere
+      - m_Target: {fileID: 715853803}
+        m_MethodName: launch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -694,7 +709,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 06e737e1ea02e714e9fb38879ac75fdb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cd8fa11a91644b7ba9b604ecdaae421, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -708,6 +723,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 715853798}
+--- !u!114 &715853803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715853798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d868e2ed10cc493eb8369760c971d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hq: {fileID: 1582134235}
+  interval: 1
 --- !u!1 &730854356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,9 +1140,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415097087}
-        m_MethodName: set_interactable
-        m_Mode: 6
+      - m_Target: {fileID: 1415097090}
+        m_MethodName: launch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1170,7 +1198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hq: {fileID: 1582134235}
-  interval: 5
+  interval: 1
 --- !u!1 &1415379597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,6 +1642,7 @@ GameObject:
   - 222: {fileID: 2014210338}
   - 114: {fileID: 2014210337}
   - 114: {fileID: 2014210336}
+  - 114: {fileID: 2014210339}
   m_Layer: 5
   m_Name: CreateUnit3
   m_TagString: Untagged
@@ -1678,8 +1707,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1582134235}
-        m_MethodName: createSphere
+      - m_Target: {fileID: 2014210339}
+        m_MethodName: launch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1710,7 +1739,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 06e737e1ea02e714e9fb38879ac75fdb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cd8fa11a91644b7ba9b604ecdaae421, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1724,6 +1753,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2014210334}
+--- !u!114 &2014210339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2014210334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d868e2ed10cc493eb8369760c971d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hq: {fileID: 1582134235}
+  interval: 1
 --- !u!1 &2016155647
 GameObject:
   m_ObjectHideFlags: 0
