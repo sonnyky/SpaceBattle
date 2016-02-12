@@ -24,7 +24,7 @@ public class ButtonControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timer -= Time.deltaTime;
-
+		gameObject.transform.Find ("TimerWheel").GetComponent<Image> ().fillAmount = timer / interval;
 		if (gameObject.GetComponent<Button> ().interactable == false && timer <= 0) {
 			// reset timer to zero in case it went negative
 			timer = 0;
@@ -36,6 +36,7 @@ public class ButtonControl : MonoBehaviour {
 		hq.createFighterJets ();
 		gameObject.GetComponent<Button> ().interactable = false;
 		this.timer = interval;
+		gameObject.transform.Find ("TimerWheel").GetComponent<Image> ().fillAmount = 1;
 	}
 
 }
