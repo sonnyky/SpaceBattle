@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Mothership : MonoBehaviour {
 
-	public Object sphere;
+	public int maxNumPlayerFighters;
+
     private GameObject fighterJetPrefab, newFighterJet;
     private int numOfPlayerFighters;
     private Vector3 fighterJetInitialPosition;
@@ -21,10 +22,6 @@ public class Mothership : MonoBehaviour {
 	
 	}
 
-	public void createSphere() {
-		Instantiate (sphere, new Vector3 (0, -2, 0), Quaternion.identity);
-	}
-
     public void createFighterJets()
     {
         newFighterJet = GameObject.Instantiate(fighterJetPrefab, fighterJetInitialPosition, this.transform.rotation) as GameObject; ;
@@ -35,4 +32,8 @@ public class Mothership : MonoBehaviour {
     {
         this.numOfPlayerFighters--;
     }
+
+	public bool canCreateFighterJet () {
+		return numOfPlayerFighters < maxNumPlayerFighters;
+	}
 }
