@@ -262,7 +262,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &376124521
 GameObject:
@@ -998,6 +998,10 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360ef787d817ec4c8645fa184a99b17, type: 2}
+      propertyPath: m_TagString
+      value: EnemyMothership
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9360ef787d817ec4c8645fa184a99b17, type: 2}
   m_IsPrefabParent: 0
@@ -1394,7 +1398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39aa54a993bfa49b99b3a851910e7386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxNumPlayerFighters: 1
+  maxNumPlayerFighters: 3
 --- !u!1 &1759614633
 GameObject:
   m_ObjectHideFlags: 0

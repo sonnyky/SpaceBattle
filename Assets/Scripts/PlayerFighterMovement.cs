@@ -5,10 +5,18 @@ public class PlayerFighterMovement : MonoBehaviour {
     Vector3 cur_pos, new_pos;
     Vector3 velocity;
     Mothership playerMothershipReferenceObject;
-	bool collided;
+
+    private GameObject projectileAsset, newProjectile;
+    private int numOfProjectiles;
+
+    bool collided;
 	// Use this for initialization
 	void Start () {
         playerMothershipReferenceObject = GameObject.Find("AstraHeavyCruiser01").GetComponentInChildren<Mothership>();
+
+        //Initiating weapon for player fighter jet
+        projectileAsset = (GameObject)Resources.Load("Prefabs/Laser");
+        numOfProjectiles = 0;
         cur_pos = this.gameObject.transform.localPosition;
         velocity.x = 0;
         velocity.y = 0.05f;
@@ -24,6 +32,7 @@ public class PlayerFighterMovement : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.gameObject.name == "AstraHeavyCruiser01_enemy") {
 			this.collided = true;
+            print("player jet collided with enemy mothership");
 		}
 	}
 	
@@ -44,6 +53,19 @@ public class PlayerFighterMovement : MonoBehaviour {
 				this.DestroyThisObject();
 				playerMothershipReferenceObject.reduceNumOfPlayerFighters();
 			}
-		}
+        }
+        else
+        {
+            //start shooting after collision
+            //this.spawnProjectiles();
+            print("start shooting");
+        }
+    }
+
+    void spawnProjectiles()
+    {
+        newProjectile = GameObject.Instantiate(projectileAsset, cur_pos, this.transform.rotation) as GameObject; ;
+        newProjectile.name = "newProjectile" + numOfProjectiles;
+        numOfProjectiles++;
     }
 }
