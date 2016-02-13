@@ -9,7 +9,7 @@ public class PlayerFighterMovement : MonoBehaviour {
     private GameObject projectileAsset, newProjectile;
     private int numOfProjectiles;
 
-    bool collided;
+    private bool collided, shooting;
 	// Use this for initialization
 	void Start () {
         playerMothershipReferenceObject = GameObject.Find("AstraHeavyCruiser01").GetComponentInChildren<Mothership>();
@@ -22,6 +22,7 @@ public class PlayerFighterMovement : MonoBehaviour {
         velocity.y = 0.05f;
         velocity.z = 0;
 		collided = false;
+        shooting = false;
     }
 
     void DestroyThisObject()
@@ -32,7 +33,6 @@ public class PlayerFighterMovement : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.gameObject.name == "AstraHeavyCruiser01_enemy") {
 			this.collided = true;
-            print("player jet collided with enemy mothership");
 		}
 	}
 	
@@ -57,15 +57,25 @@ public class PlayerFighterMovement : MonoBehaviour {
         else
         {
             //start shooting after collision
-            //this.spawnProjectiles();
-            print("start shooting");
+            if (shooting == false)
+            {
+                StartCoroutine("spawnProjectiles", gameObject.name);
+            }
         }
     }
 
-    void spawnProjectiles()
+    IEnumerator spawnProjectiles(string playerFighterId)
     {
-        newProjectile = GameObject.Instantiate(projectileAsset, cur_pos, this.transform.rotation) as GameObject; ;
-        newProjectile.name = "newProjectile" + numOfProjectiles;
-        numOfProjectiles++;
+        shooting = true;
+        while (true)
+        {
+            yield return new WaitForSeconds(2);
+            newProjectile = GameObject.Instantiate(projectileAsset, cur_pos, this.transform.rotation) as GameObject; ;
+            newProjectile.name = "newProjectile" + numOfProjectiles;
+            numOfProjectiles++;
+            
+        }
     }
+
+  
 }
