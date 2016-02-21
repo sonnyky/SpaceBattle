@@ -11,7 +11,7 @@ public class LaserScript : MonoBehaviour {
         damagePower = 2.0f;
         cur_pos = this.gameObject.transform.localPosition;
         velocity.x = 0;
-        velocity.y = 0.05f;
+        velocity.y = 0.1f;
         velocity.z = 0;
         collided = false;
     }

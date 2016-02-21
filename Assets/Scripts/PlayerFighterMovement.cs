@@ -2,6 +2,9 @@
 using System.Collections;
 
 public class PlayerFighterMovement : MonoBehaviour {
+
+	public float range;
+
     Vector3 cur_pos, new_pos;
     Vector3 velocity;
     Mothership playerMothershipReferenceObject;
@@ -9,7 +12,7 @@ public class PlayerFighterMovement : MonoBehaviour {
     private GameObject projectileAsset, newProjectile;
     private int numOfProjectiles;
 
-    private bool collided, shooting;
+    private bool collided, inRange, shooting;
 	// Use this for initialization
 	void Start () {
         playerMothershipReferenceObject = GameObject.Find("AstraHeavyCruiser01").GetComponentInChildren<Mothership>();
@@ -22,6 +25,7 @@ public class PlayerFighterMovement : MonoBehaviour {
         velocity.y = 0.05f;
         velocity.z = 0;
 		collided = false;
+		inRange = false;
         shooting = false;
     }
 
@@ -47,6 +51,16 @@ public class PlayerFighterMovement : MonoBehaviour {
 				new_pos.z = cur_pos.z + velocity.z;
 				this.gameObject.transform.localPosition = new_pos;
 				cur_pos = new_pos;
+
+				if (!inRange) {
+					checkRange ();
+				}
+				else {
+					//start shooting once in range
+					if (shooting == false) {
+						StartCoroutine ("spawnProjectiles", gameObject.name);
+					}
+				}
 			}
 			else
 			{
@@ -69,13 +83,18 @@ public class PlayerFighterMovement : MonoBehaviour {
         shooting = true;
         while (true)
         {
-            yield return new WaitForSeconds(2);
             newProjectile = GameObject.Instantiate(projectileAsset, cur_pos, this.transform.rotation) as GameObject; ;
             newProjectile.name = "newProjectile" + numOfProjectiles;
             numOfProjectiles++;
-            
+			yield return new WaitForSeconds(2);
         }
     }
 
-  
+	void checkRange() {
+		GameObject enemy = GameObject.Find ("AstraHeavyCruiser01_enemy");
+		float distance = Vector3.Distance (transform.position, enemy.transform.position);
+		if (distance <= range) {
+			this.inRange = true;
+		}
+	}
 }
