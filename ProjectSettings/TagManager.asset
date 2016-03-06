@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DamagingProjectile
   - EnemyMothership
+  - Enemy
   layers:
   - Default
   - TransparentFX
