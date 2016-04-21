@@ -5,7 +5,7 @@ public class LaserScript : MonoBehaviour {
     private Vector3 cur_pos, new_pos;
     private Vector3 velocity;
     private bool collided;
-    private float damagePower;
+    public float damagePower;
     // Use this for initialization
     void Start () {
         damagePower = 2.0f;
@@ -16,13 +16,17 @@ public class LaserScript : MonoBehaviour {
         collided = false;
     }
 
-    private void onCollisionEnter()
+    void OnTriggerEnter(Collider other)
     {
-        collided = true;
+       if(other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyFighter>().TakeDamage(damagePower);
+            collided = true;
+        }
     }
-	
-	// Update is called once per frame
-	void Update () {
+   
+    // Update is called once per frame
+    void Update () {
         if (!collided)
         {
             Vector3 viewPos = Camera.main.WorldToViewportPoint(this.transform.position);
