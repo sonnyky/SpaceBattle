@@ -1,0 +1,890 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.13f1 (5f5de2657605) revision 6249954'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sonny/Desktop/Workspace/SpaceBattle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53859
+Successfully changed project path to: C:/Users/Sonny/Desktop/Workspace/SpaceBattle
+C:/Users/Sonny/Desktop/Workspace/SpaceBattle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2076] Host "[IP] 192.168.174.1 [Port] 0 [Flags] 2 [Guid] 10950628 [EditorId] 10950628 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7O4NP2J8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2076] Host "[IP] 192.168.174.1 [Port] 0 [Flags] 2 [Guid] 10950628 [EditorId] 10950628 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7O4NP2J8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 23.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.13f1 (5f5de2657605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sonny/Desktop/Workspace/SpaceBattle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013056 seconds.
+- Loaded All Assemblies, in  0.623 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (379ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+				TypeCache.Initialize (228ms)
+					TypeCache.ScanAssembly (225ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (17ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.994 seconds
+Refreshing native plugins compatible for Editor in 21.31 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (318ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (672ms)
+			LoadAssemblies (384ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+				TypeCache.Initialize (328ms)
+					TypeCache.ScanAssembly (322ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (213ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 18.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (84.5 KB). Loaded Objects now: 2892.
+Memory consumption went from 94.3 MB to 94.2 MB.
+Total: 9.466200 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.310500 ms MarkObjects: 8.674300 ms  DeleteObjects: 0.213600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171613.472363 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(51620d75081c5ee468b17d4be50001e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(51620d75081c5ee468b17d4be50001e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516ff0a4b609faed7b8d16fe3dfb7d87') in 0.002639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.968 seconds
+Refreshing native plugins compatible for Editor in 23.17 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (324ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (635ms)
+			LoadAssemblies (376ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+				TypeCache.Initialize (335ms)
+					TypeCache.ScanAssembly (327ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (263ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 16.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (48.7 KB). Loaded Objects now: 2895.
+Memory consumption went from 93.2 MB to 93.1 MB.
+Total: 9.887800 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.340600 ms MarkObjects: 9.091100 ms  DeleteObjects: 0.091200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.980 seconds
+Refreshing native plugins compatible for Editor in 19.44 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.181 seconds
+Domain Reload Profiling:
+	ReloadAssembly (332ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		LoadAllAssembliesAndSetupDomain (642ms)
+			LoadAssemblies (402ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+				TypeCache.Initialize (313ms)
+					TypeCache.ScanAssembly (307ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (253ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 31.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (56.0 KB). Loaded Objects now: 2898.
+Memory consumption went from 93.4 MB to 93.4 MB.
+Total: 14.494200 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.361800 ms MarkObjects: 13.343600 ms  DeleteObjects: 0.444300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 772.667560 seconds.
+  path: Assets/Resources/Prefabs/EnemyFighter.prefab
+  artifactKey: Guid(c6cfcf8f1deca6e449101d2ad70c2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/EnemyFighter.prefab using Guid(c6cfcf8f1deca6e449101d2ad70c2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07e82544ebdc9af6e7d20e876970d6a') in 0.700665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 241.170894 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(026128c16b8902741b28b9f106d5ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(026128c16b8902741b28b9f106d5ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7cf2e97dbe6db93fddfd5f0541f1f9') in 0.001313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.474060 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cad3f9af1f94c959c626434fdd62bf') in 0.000824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 14.77 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (349ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		LoadAllAssembliesAndSetupDomain (571ms)
+			LoadAssemblies (371ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+				TypeCache.Initialize (293ms)
+					TypeCache.ScanAssembly (288ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (213ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 16.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (48.7 KB). Loaded Objects now: 2913.
+Memory consumption went from 97.7 MB to 97.6 MB.
+Total: 7.918300 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.233700 ms MarkObjects: 7.327600 ms  DeleteObjects: 0.088800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.423144 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6678c4b90f70bd473f56a9378cb0c05') in 0.002659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.723539 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38574ba856352de89eeceeb8adf00fa') in 0.000617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 13.60 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (284ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		LoadAllAssembliesAndSetupDomain (537ms)
+			LoadAssemblies (340ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+				TypeCache.Initialize (263ms)
+					TypeCache.ScanAssembly (258ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 14.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (48.6 KB). Loaded Objects now: 2916.
+Memory consumption went from 97.7 MB to 97.6 MB.
+Total: 7.688900 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.219000 ms MarkObjects: 7.140900 ms  DeleteObjects: 0.084200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.496418 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(b4bdb2be929629143b9308e569f77f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0499f396904fc49373e4ae69aba7ba5d') in 0.002589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 17.47 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (348ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		LoadAllAssembliesAndSetupDomain (574ms)
+			LoadAssemblies (380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+				TypeCache.Initialize (275ms)
+					TypeCache.ScanAssembly (269ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (610ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (209ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 14.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (48.6 KB). Loaded Objects now: 2919.
+Memory consumption went from 97.7 MB to 97.6 MB.
+Total: 7.636700 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.229000 ms MarkObjects: 7.073700 ms  DeleteObjects: 0.086100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
