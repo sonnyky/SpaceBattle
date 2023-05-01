@@ -66,7 +66,7 @@ namespace SpaceBattle
             // Random instances with similar seeds produce similar results, so to get proper
             // randomness here, we use CreateFromIndex, which hashes the seed.
             var random = Random.CreateFromIndex(SeedOffset + (uint)index);
-            var xz = random.NextFloat2Direction() * 50;
+            var xz = random.NextFloat2Direction() * 10;
             transform.Position = new float3(xz[0], 50, xz[1]);
         }
     }
