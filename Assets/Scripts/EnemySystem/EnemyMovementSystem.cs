@@ -23,7 +23,7 @@ namespace SpaceBattle
 
             new EnemyMoveJob
             {
-                Movement = new float3(0, SystemAPI.Time.DeltaTime * -20, 0),
+                Movement = new float3(0, SystemAPI.Time.DeltaTime * -5, 0),
                 ECB = ecbSingleton.CreateCommandBuffer(state.WorldUnmanaged).AsParallelWriter()
             }.ScheduleParallel();
         }
