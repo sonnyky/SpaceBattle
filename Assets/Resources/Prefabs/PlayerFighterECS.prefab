@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 11458432}
   - component: {fileID: -4566271164569956218}
   - component: {fileID: 1172236333170924654}
+  - component: {fileID: 8218307845212704504}
   m_Layer: 0
   m_Name: PlayerFighterECS
   m_TagString: Player
@@ -242,6 +243,20 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &8218307845212704504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ce045b9b255474bb751ce346852694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Power: 1000
+  InitialHP: 100
 --- !u!1 &152072
 GameObject:
   m_ObjectHideFlags: 0

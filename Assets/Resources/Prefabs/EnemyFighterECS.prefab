@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3998976063084954163}
   - component: {fileID: 1904480065132958653}
   - component: {fileID: -6618295456245730357}
+  - component: {fileID: 4776923216345473209}
   m_Layer: 0
   m_Name: EnemyFighterECS
   m_TagString: Enemy
@@ -96,7 +97,7 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 1
     m_Friction:
       m_Override: 0
       m_Value:
@@ -202,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MotionType: 2
+  m_MotionType: 1
   m_Smoothing: 1
   m_Mass: 1
   m_LinearDamping: 0.01
@@ -241,6 +242,20 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &4776923216345473209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2909036537481488659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ce045b9b255474bb751ce346852694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Power: 10
+  InitialHP: 10
 --- !u!1 &6860514610967513254
 GameObject:
   m_ObjectHideFlags: 0
